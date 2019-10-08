@@ -1,0 +1,75 @@
+.body{
+    display: flex;
+}
+.cabecera{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 160px;
+    padding: .8em;
+    justify-content: space-around;
+}
+.logo{
+    background-color: grey;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+.logo div{
+    background-color: aqua;
+    padding: 0.5em;
+}
+.logo-costado{
+    width: 15%;
+}
+.logo-centro{
+    width: 65%;
+}
+.texto-principal{
+    background-color: purple;
+    padding: 1em;
+}
+.texto-principal div{
+    background-color: brown;
+    width: 100%;
+    padding: 0.5em;
+}
+.cuerpo{
+    display: flex;
+    height: 200px;
+    padding: .7em;
+    background-color: black;
+    margin: 1em 0;
+    justify-content: space-around;
+}
+.noticias{
+    background-color: turquoise;
+    padding: .8em;
+    width: 66%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.cuerpo-publi{
+    background-color: green;
+    padding: .5em;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cuerpo-publi div{
+    background-color: yellow;
+    padding: .8em;
+}
+.noticias-contenido{
+    background-color: azure;
+    padding: .8em;
+    width: 47%;
+}
+.noticias-diferente{
+    background-color: darkred;
+    padding: 0.8em;
+    width: 100%;
+}
