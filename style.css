@@ -73,3 +73,15 @@
     padding: 0.8em;
     width: 100%;
 }
+.pie{
+    display: flex;
+    background-color: black;
+    height: 50px;
+    padding: .8em;
+    justify-content: center;
+}
+.pie div{
+    background-color: darkblue;
+    padding: .7em;
+    width: 30%;
+}
